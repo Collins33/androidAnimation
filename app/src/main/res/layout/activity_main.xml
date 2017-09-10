@@ -16,7 +16,8 @@
         android:layout_alignParentBottom="true"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
-        android:layout_marginBottom="254dp" />
+        android:layout_marginBottom="254dp"
+        android:onClick="fade"/>
 
     <Button
         android:id="@+id/button"
@@ -28,7 +29,8 @@
         android:text="fadeout"
         android:layout_above="@+id/button6"
         android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true" />
+        android:layout_alignParentStart="true"
+        android:onClick="fadeOut"/>
 
     <Button
         android:id="@+id/button2"
@@ -58,7 +60,7 @@
         android:layout_below="@+id/button3"
         android:layout_toLeftOf="@+id/button3"
         android:layout_toStartOf="@+id/button3"
-        android:text="Button" />
+        android:text="rotate" />
 
     <Button
         android:id="@+id/button5"
