@@ -52,7 +52,8 @@
         android:layout_marginTop="21dp"
         android:text="crossfade"
         android:layout_below="@+id/button2"
-        android:layout_centerHorizontal="true" />
+        android:layout_centerHorizontal="true"
+        android:onClick="crossFade"/>
 
     <Button
         android:id="@+id/button4"
@@ -89,4 +90,14 @@
         android:layout_alignParentBottom="true"
         android:layout_toLeftOf="@+id/button5"
         android:layout_toStartOf="@+id/button5" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:alpha="0"
+        app:srcCompat="@drawable/wonderwoman" />
 </RelativeLayout>
