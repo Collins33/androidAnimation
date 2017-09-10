@@ -33,14 +33,14 @@ public class MainActivity extends AppCompatActivity {
         ImageView superman=(ImageView) findViewById(R.id.imageView2);
         superman.animate().alpha(1).setDuration(5000);
     }
-    public void crossFade(View view){
-        //get view
-        ImageView superman=(ImageView) findViewById(R.id.imageView2);
-        //animate the view
-        superman.animate().alpha(0f).setDuration(5000);
-        ImageView wonder=(ImageView) findViewById(R.id.imageView);
-        wonder.animate().alpha(1f).setDuration(5000);
 
+    public void rotate(View view){
+        ImageView superman=(ImageView) findViewById(R.id.imageView2);
+        superman.animate().rotation(180f).setDuration(8000);
+    }
+    public void translate(View view){
+        ImageView superman=(ImageView) findViewById(R.id.imageView2);
+        superman.animate().translationYBy(300);
     }
 
 
