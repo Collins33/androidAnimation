@@ -17,7 +17,7 @@ public class MainActivity extends AppCompatActivity {
         //ImageView batMan=(ImageView) findViewById(R.id.imageView);
         ImageView superman=(ImageView) findViewById(R.id.imageView2);
         //batMan.animate().rotation(180f).setDuration(8000);
-        superman.animate().rotation(180f).setDuration(2000);
+        superman.animate().rotation(180f).scaleX(0.5f).scaleY(0.5f).setDuration(9000);
 
     }
 
