@@ -22,5 +22,6 @@
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
         android:alpha="0"
-        app:srcCompat="@drawable/superman" />
+        app:srcCompat="@drawable/superman"
+       />
 </RelativeLayout>
