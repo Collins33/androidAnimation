@@ -15,6 +15,9 @@ public class MainActivity extends AppCompatActivity {
     public void fade(View view){
         //get the view
         ImageView batMan=(ImageView) findViewById(R.id.imageView);
-        batMan.animate().alpha(0f).setDuration(2000a);
+        ImageView superman=(ImageView) findViewById(R.id.imageView2);
+        batMan.animate().alpha(0f).setDuration(2000);
+        superman.animate().alpha(1f).setDuration(2000);
+
     }
 }
