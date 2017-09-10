@@ -14,10 +14,10 @@ public class MainActivity extends AppCompatActivity {
     }
     public void fade(View view){
         //get the view
-        ImageView batMan=(ImageView) findViewById(R.id.imageView);
-        //ImageView superman=(ImageView) findViewById(R.id.imageView2);
-        batMan.animate().translationYBy(2000f).setDuration(900000000);
-        //superman.animate().alpha(1f).setDuration(2000);
+        //ImageView batMan=(ImageView) findViewById(R.id.imageView);
+        ImageView superman=(ImageView) findViewById(R.id.imageView2);
+        //batMan.animate().rotation(180f).setDuration(8000);
+        superman.animate().rotation(180f).setDuration(2000);
 
     }
 
