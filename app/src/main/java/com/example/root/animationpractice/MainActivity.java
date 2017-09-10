@@ -29,6 +29,10 @@ public class MainActivity extends AppCompatActivity {
         superman.animate().alpha(0.5f).setDuration(5000);
 
     }
+    public void fadeIn(View view){
+        ImageView superman=(ImageView) findViewById(R.id.imageView2);
+        superman.animate().alpha(1).setDuration(5000);
+    }
 
 
 }
