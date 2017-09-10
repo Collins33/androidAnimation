@@ -42,6 +42,15 @@ public class MainActivity extends AppCompatActivity {
         ImageView superman=(ImageView) findViewById(R.id.imageView2);
         superman.animate().translationYBy(300);
     }
+    public void shrink(View view){
+        ImageView superman=(ImageView) findViewById(R.id.imageView2);
+        superman.animate().scaleX(0.5f).scaleY(0.5f).setDuration(100000);
+    }
+    public void all(View view){
+        ImageView superman=(ImageView) findViewById(R.id.imageView2);
+        superman.animate().alpha(0.5f).rotation(250).translationYBy(-1000).setDuration(100000);
+    }
+
 
 
 }
